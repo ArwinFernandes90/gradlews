@@ -25,7 +25,7 @@
 		<div id="heading">
 			<div aria-level="1" class="site-title" role="heading">
 				<a class="${logo_css_class}" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
-					<img alt="${logo_description}" height="${site_logo_height}" src="${site_logo}" width="${site_logo_width}" />
+					
 				</a>
 
 				<#if show_site_name>
@@ -47,7 +47,7 @@
 
 	<section id="content">
 		<h2 class="hide-accessible" role="heading" aria-level="1">${the_title}</h2>
-
+		<h2>Welcome to my new theme</h2>
 		<#if selectable>
 			<@liferay_util["include"] page=content_include />
 		<#else>
